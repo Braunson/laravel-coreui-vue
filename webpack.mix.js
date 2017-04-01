@@ -14,6 +14,8 @@ var coreui_vendor = 'vendor/mrholek/CoreUI-Free-Bootstrap-Admin-Template/Vue_Ful
 
 // Copy over the CoreUI Assets
 mix.copyDirectory(coreui_vendor + '/static/img', 'public/static/img')
+   .copy(coreui_vendor + '/static/css/font-awesome.css', 'resource/assets/sass/coreui/fonts/font-awesome.css')
+   .copy(coreui_vendor + '/static/css/simple-line-icons.css', 'resource/assets/sass/coreui/fonts/simple-line-icons.css')
    .copyDirectory(coreui_vendor + '/static/fonts', 'public/static/fonts')
    .copyDirectory(coreui_vendor + '/scss', 'resources/assets/sass/coreui')
    .copyDirectory(coreui_vendor + '/src/assets', 'resources/assets/js/assets')

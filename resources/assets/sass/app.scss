@@ -8,11 +8,9 @@
 // Bootstrap
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Font Awesome
-@import "vendor/mrholek/CoreUI-Free-Bootstrap-Admin-Template/Vue_Full_Project/static/css/public/css/font-awesome";
-
-// Simple Line Icons
-@import "vendor/mrholek/CoreUI-Free-Bootstrap-Admin-Template/Vue_Full_Project/static/css/public/css/simple-line-icons";
+// CoreUI Fonts
+@import "coreui/fonts/font-awesome";
+@import "coreui/fonts/simple-line-icons";
 
 // CoreUI Style
 @import "coreui/style";
