@@ -16,12 +16,12 @@ var coreui_vendor = 'vendor/mrholek/CoreUI-Free-Bootstrap-Admin-Template/Vue_Ful
 mix.copyDirectory(coreui_vendor + '/static/img', 'public/static/img')
    .copyDirectory(coreui_vendor + '/static/fonts', 'public/static/fonts')
    .copyDirectory(coreui_vendor + '/scss', 'resources/assets/sass/coreui')
-   .copyDirectory(coreui_vendor + '/src/assets', 'resources/assets/js/coreui/assets')
-   .copyDirectory(coreui_vendor + '/src/components', 'resources/assets/js/coreui/components')
-   .copyDirectory(coreui_vendor + '/src/containers', 'resources/assets/js/coreui/containers')
-   .copyDirectory(coreui_vendor + '/src/router', 'resources/assets/js/coreui/router')
-   .copyDirectory(coreui_vendor + '/src/views', 'resources/assets/js/coreui/views')
-   .copy(coreui_vendor + '/src/App.vue', 'resources/assets/js/coreui/App.vue', false);
+   .copyDirectory(coreui_vendor + '/src/assets', 'resources/assets/js/assets')
+   .copyDirectory(coreui_vendor + '/src/components', 'resources/assets/js/components')
+   .copyDirectory(coreui_vendor + '/src/containers', 'resources/assets/js/containers')
+   .copyDirectory(coreui_vendor + '/src/router', 'resources/assets/js/router')
+   .copyDirectory(coreui_vendor + '/src/views', 'resources/assets/js/views')
+   .copy(coreui_vendor + '/src/App.vue', 'resources/assets/js/App.vue', false);
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');

@@ -17,10 +17,10 @@ require('./bootstrap');
 // Vue.component('example', require('./components/Example.vue'));
 
 import Vue from 'vue';
-import App from './coreui/App.vue';
-import router from './coreui/router';
+import App from './App.vue';
+import router from './router';
 
-Vue.component('App', require('./coreui/App.vue'));
+Vue.component('App', require('./App.vue'));
 
 /* eslint-disable no-new */
 const app = new Vue({
