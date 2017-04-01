@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -13,8 +14,18 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
+// Vue.component('example', require('./components/Example.vue'));
 
+import Vue from 'vue';
+import App from './coreui/App.vue';
+import router from './coreui/router';
+
+Vue.component('App', require('./coreui/App.vue'));
+
+/* eslint-disable no-new */
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: { App },
 });
