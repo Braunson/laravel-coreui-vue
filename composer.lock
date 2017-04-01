@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "0da7e986a23ef23262d615ecb5c20ade",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -582,6 +582,22 @@
                 "psr-3"
             ],
             "time": "2017-03-13T07:08:03+00:00"
+        },
+        {
+            "name": "mrholek/CoreUI-Free-Bootstrap-Admin-Template",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mrholek/CoreUI-Free-Bootstrap-Admin-Template.git",
+                "reference": "tags/1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/archive/master.zip",
+                "reference": "tags/1.0.0",
+                "shasum": null
+            },
+            "type": "library"
         },
         {
             "name": "mtdowling/cron-expression",
