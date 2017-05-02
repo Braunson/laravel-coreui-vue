@@ -9,3 +9,8 @@ A clean install of Laravel 5.4 with the [CoreUI Full Bootstrap Admin Template Vu
 ## What's it look like?
 
 [Here's a demo.](http://coreui.io/demo/Vue_Demo/)
+
+
+## Getting Started
+
+If your here, you most likely know what Laravel is and hopefully how to get up and running with it. If not, [click here to check the docs on getting up and running](https://laravel.com/docs/5.4/). Also [Laracasts](https://laracasts.com) is a fantastic resource for getting up to speed with everything Laravel from pretty much any version.
