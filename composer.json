@@ -27,12 +27,8 @@
                 "dist": {
                     "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/archive/master.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "git@github.com:mrholek/CoreUI-Free-Bootstrap-Admin-Template.git",
-                    "type": "git",
-                    "reference": "tags/1.0.0"
                 }
+
             }
         }
     ],
