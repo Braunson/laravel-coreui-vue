@@ -16,7 +16,7 @@
     "jquery": "^3.1.1",
     "laravel-mix": "0.*",
     "lodash": "^4.17.4",
-    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
+    "uglify-es": "git+https://github.com/mishoo/UglifyJS2.git#harmony",
     "vue": "^2.1.10"
   },
   "dependencies": {
