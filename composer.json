@@ -11,7 +11,7 @@
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "mrholek/CoreUI-Free-Bootstrap-Admin-Template": "1.0.0"
+        "mrholek/CoreUI-Free-Bootstrap-Admin-Template": "dev-24d9a64"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -23,10 +23,11 @@
             "type": "package",
             "package": {
                 "name": "mrholek/CoreUI-Free-Bootstrap-Admin-Template",
-                "version": "1.0.0",
-                "dist": {
-                    "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/archive/master.zip",
-                    "type": "zip"
+                "version": "dev-24d9a64",
+                "source": {
+                    "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template.git",
+                    "type": "git",
+                    "reference": "24d9a64"
                 }
 
             }
