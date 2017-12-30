@@ -14392,53 +14392,53 @@ module.exports = Vue$3;
 /**
  * @namespace Chart
  */
-var Chart = __webpack_require__(310)();
+var Chart = __webpack_require__(308)();
 
-__webpack_require__(308)(Chart);
-__webpack_require__(324)(Chart);
-__webpack_require__(304)(Chart);
-__webpack_require__(313)(Chart);
-__webpack_require__(307)(Chart);
-__webpack_require__(303)(Chart);
-__webpack_require__(305)(Chart);
 __webpack_require__(306)(Chart);
+__webpack_require__(322)(Chart);
+__webpack_require__(302)(Chart);
 __webpack_require__(311)(Chart);
-__webpack_require__(315)(Chart);
-__webpack_require__(316)(Chart);
-__webpack_require__(314)(Chart);
-__webpack_require__(317)(Chart);
-__webpack_require__(312)(Chart);
+__webpack_require__(305)(Chart);
+__webpack_require__(301)(Chart);
+__webpack_require__(303)(Chart);
+__webpack_require__(304)(Chart);
 __webpack_require__(309)(Chart);
-__webpack_require__(318)(Chart);
+__webpack_require__(313)(Chart);
+__webpack_require__(314)(Chart);
+__webpack_require__(312)(Chart);
+__webpack_require__(315)(Chart);
+__webpack_require__(310)(Chart);
+__webpack_require__(307)(Chart);
+__webpack_require__(316)(Chart);
 
+__webpack_require__(317)(Chart);
+__webpack_require__(318)(Chart);
 __webpack_require__(319)(Chart);
 __webpack_require__(320)(Chart);
-__webpack_require__(321)(Chart);
-__webpack_require__(322)(Chart);
 
-__webpack_require__(327)(Chart);
 __webpack_require__(325)(Chart);
+__webpack_require__(323)(Chart);
+__webpack_require__(324)(Chart);
 __webpack_require__(326)(Chart);
+__webpack_require__(327)(Chart);
 __webpack_require__(328)(Chart);
-__webpack_require__(329)(Chart);
-__webpack_require__(330)(Chart);
 
 // Controllers must be loaded after elements
 // See Chart.core.datasetController.dataElementType
+__webpack_require__(295)(Chart);
+__webpack_require__(296)(Chart);
 __webpack_require__(297)(Chart);
 __webpack_require__(298)(Chart);
 __webpack_require__(299)(Chart);
 __webpack_require__(300)(Chart);
-__webpack_require__(301)(Chart);
-__webpack_require__(302)(Chart);
 
+__webpack_require__(288)(Chart);
+__webpack_require__(289)(Chart);
 __webpack_require__(290)(Chart);
 __webpack_require__(291)(Chart);
 __webpack_require__(292)(Chart);
 __webpack_require__(293)(Chart);
 __webpack_require__(294)(Chart);
-__webpack_require__(295)(Chart);
-__webpack_require__(296)(Chart);
 
 window.Chart = module.exports = Chart;
 
@@ -16735,7 +16735,7 @@ module.exports = function bind(fn, thisArg) {
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(287), __esModule: true };
+module.exports = { "default": __webpack_require__(334), __esModule: true };
 
 /***/ }),
 /* 64 */
@@ -29479,7 +29479,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\App.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/App.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] App.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -50759,7 +50759,7 @@ window._ = __webpack_require__(457);
 
 window.$ = window.jQuery = __webpack_require__(340);
 
-__webpack_require__(289);
+__webpack_require__(287);
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -50982,23 +50982,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 
 /***/ }),
 /* 287 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var core  = __webpack_require__(288)
-  , $JSON = core.JSON || (core.JSON = {stringify: JSON.stringify});
-module.exports = function stringify(it){ // eslint-disable-line no-unused-vars
-  return $JSON.stringify.apply($JSON, arguments);
-};
-
-/***/ }),
-/* 288 */
-/***/ (function(module, exports) {
-
-var core = module.exports = {version: '2.4.0'};
-if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
-
-/***/ }),
-/* 289 */
 /***/ (function(module, exports) {
 
 /*!
@@ -53381,7 +53364,7 @@ if (typeof jQuery === 'undefined') {
 
 
 /***/ }),
-/* 290 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53399,7 +53382,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 291 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53416,7 +53399,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 292 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53434,7 +53417,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 293 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53452,7 +53435,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 294 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53470,7 +53453,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 295 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53488,7 +53471,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 296 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53542,7 +53525,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 297 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54089,7 +54072,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 298 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54218,7 +54201,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 299 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54528,7 +54511,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 300 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54874,7 +54857,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 301 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55096,7 +55079,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 302 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55284,7 +55267,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 303 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55430,7 +55413,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 304 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55561,7 +55544,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 305 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56320,7 +56303,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 306 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56636,7 +56619,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 307 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56739,7 +56722,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 308 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56747,7 +56730,7 @@ module.exports = function(Chart) {
 /* global document: false */
 
 
-var color = __webpack_require__(332);
+var color = __webpack_require__(330);
 
 module.exports = function(Chart) {
 	// Global Chart helpers object for utility methods and classes
@@ -57715,7 +57698,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 309 */
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58034,7 +58017,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 310 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58097,7 +58080,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 311 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58473,7 +58456,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 312 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59016,7 +58999,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 313 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59348,7 +59331,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 314 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60114,7 +60097,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 315 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60161,7 +60144,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 316 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60376,7 +60359,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 317 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60603,7 +60586,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 318 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61490,7 +61473,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 319 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61601,7 +61584,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 320 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61792,7 +61775,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 321 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61899,7 +61882,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 322 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62114,7 +62097,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 323 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62398,7 +62381,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 324 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62406,7 +62389,7 @@ module.exports = function(Chart) {
 
 // By default, select the browser (DOM) platform.
 // @TODO Make possible to select another platform at build time.
-var implementation = __webpack_require__(323);
+var implementation = __webpack_require__(321);
 
 module.exports = function(Chart) {
 	/**
@@ -62474,7 +62457,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 325 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62606,7 +62589,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 326 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62797,7 +62780,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 327 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62902,7 +62885,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 328 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63153,7 +63136,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 329 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63673,7 +63656,7 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 330 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64136,11 +64119,11 @@ module.exports = function(Chart) {
 
 
 /***/ }),
-/* 331 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
-var colorNames = __webpack_require__(335);
+var colorNames = __webpack_require__(333);
 
 module.exports = {
    getRgba: getRgba,
@@ -64363,12 +64346,12 @@ for (var name in colorNames) {
 
 
 /***/ }),
-/* 332 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
-var convert = __webpack_require__(334);
-var string = __webpack_require__(331);
+var convert = __webpack_require__(332);
+var string = __webpack_require__(329);
 
 var Color = function (obj) {
 	if (obj instanceof Color) {
@@ -64854,7 +64837,7 @@ module.exports = Color;
 
 
 /***/ }),
-/* 333 */
+/* 331 */
 /***/ (function(module, exports) {
 
 /* MIT license */
@@ -65558,10 +65541,10 @@ for (var key in cssKeywords) {
 
 
 /***/ }),
-/* 334 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var conversions = __webpack_require__(333);
+var conversions = __webpack_require__(331);
 
 var convert = function() {
    return new Converter();
@@ -65655,7 +65638,7 @@ Converter.prototype.getValues = function(space) {
 module.exports = convert;
 
 /***/ }),
-/* 335 */
+/* 333 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -65810,11 +65793,28 @@ module.exports = {
 };
 
 /***/ }),
+/* 334 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core  = __webpack_require__(335)
+  , $JSON = core.JSON || (core.JSON = {stringify: JSON.stringify});
+module.exports = function stringify(it){ // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
+/***/ }),
+/* 335 */
+/***/ (function(module, exports) {
+
+var core = module.exports = {version: '2.4.0'};
+if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
+
+/***/ }),
 /* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(20)();
-exports.push([module.i, "\n.modal {\r\n  -webkit-transition: all 0.3s ease;\r\n  transition: all 0.3s ease;\n}\n.modal.in {\r\n  background-color: rgba(0,0,0,0.5);\n}\n.modal.zoom .modal-dialog {\r\n  -webkit-transform: scale(0.1);\r\n  transform: scale(0.1);\r\n  top: 300px;\r\n  opacity: 0;\r\n  -webkit-transition: all 0.3s;\r\n  transition: all 0.3s;\n}\n.modal.zoom.in .modal-dialog {\r\n  -webkit-transform: scale(1);\r\n  transform: scale(1);\r\n  -webkit-transform: translate3d(0, -300px, 0);\r\n  transform: translate3d(0, -300px, 0);\r\n  opacity: 1;\n}\r\n", ""]);
+exports.push([module.i, "\n.modal {\n  -webkit-transition: all 0.3s ease;\n  transition: all 0.3s ease;\n}\n.modal.in {\n  background-color: rgba(0,0,0,0.5);\n}\n.modal.zoom .modal-dialog {\n  -webkit-transform: scale(0.1);\n  transform: scale(0.1);\n  top: 300px;\n  opacity: 0;\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n}\n.modal.zoom.in .modal-dialog {\n  -webkit-transform: scale(1);\n  transform: scale(1);\n  -webkit-transform: translate3d(0, -300px, 0);\n  transform: translate3d(0, -300px, 0);\n  opacity: 1;\n}\n", ""]);
 
 /***/ }),
 /* 337 */
@@ -99625,7 +99625,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\node_modules\\vue-strap\\src\\Modal.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/node_modules/vue-strap/src/Modal.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Modal.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99659,7 +99659,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Aside.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Aside.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Aside.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99693,7 +99693,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Breadcrumb.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Breadcrumb.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Breadcrumb.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99727,7 +99727,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Footer.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Footer.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Footer.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99765,7 +99765,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Header.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Header.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Header.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99799,7 +99799,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Navbar.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99837,7 +99837,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\components\\Sidebar.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/components/Sidebar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Sidebar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99871,7 +99871,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\containers\\Full.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/containers/Full.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Full.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99905,7 +99905,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\Charts.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/Charts.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Charts.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99939,7 +99939,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\Dashboard.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/Dashboard.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Dashboard.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -99973,7 +99973,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\Widgets.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/Widgets.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Widgets.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100007,7 +100007,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\BarExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/BarExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100040,7 +100040,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\DoughnutExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/DoughnutExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100073,7 +100073,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\LineExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/LineExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100106,7 +100106,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\PieExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/PieExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100139,7 +100139,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\PolarAreaExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/PolarAreaExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100172,7 +100172,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\charts\\RadarExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/charts/RadarExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100205,7 +100205,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Buttons.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Buttons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Buttons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100239,7 +100239,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Cards.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Cards.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Cards.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100273,7 +100273,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Forms.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Forms.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Forms.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100307,7 +100307,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Modals.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Modals.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Modals.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100345,7 +100345,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\SocialButtons.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/SocialButtons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] SocialButtons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100379,7 +100379,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Switches.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Switches.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Switches.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100413,7 +100413,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\components\\Tables.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/components/Tables.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Tables.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100447,7 +100447,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\CardBarChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/CardBarChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100480,7 +100480,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\CardLine1ChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/CardLine1ChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100513,7 +100513,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\CardLine2ChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/CardLine2ChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100546,7 +100546,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\CardLine3ChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/CardLine3ChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100579,7 +100579,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\MainChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/MainChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100612,7 +100612,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\dashboard\\SocialBoxChartExample.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/dashboard/SocialBoxChartExample.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -100645,7 +100645,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\icons\\FontAwesome.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/icons/FontAwesome.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] FontAwesome.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100679,7 +100679,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\icons\\SimpleLineIcons.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/icons/SimpleLineIcons.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] SimpleLineIcons.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100713,7 +100713,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\pages\\Login.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/pages/Login.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Login.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100747,7 +100747,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\pages\\Page404.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/pages/Page404.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Page404.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100781,7 +100781,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\pages\\Page500.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/pages/Page500.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Page500.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -100815,7 +100815,7 @@ var Component = __webpack_require__(1)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\geekybeaver\\Documents\\GitHub\\laravel-coreui-vue\\resources\\assets\\js\\views\\pages\\Register.vue"
+Component.options.__file = "/Users/cdicarlo/Code/laravel-coreui-vue/resources/assets/js/views/pages/Register.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Register.vue: functional components are not supported with templates, they should use render functions.")}
 
