@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        
+        //
     ];
 
     /**
@@ -29,13 +29,14 @@ class Kernel extends ConsoleKernel
     }
 
     /**
-     * Register the Closure based commands for the application.
+     * Register the commands for the application.
      *
      * @return void
      */
     protected function commands()
     {
-        require base_path('routes/console.php');
         $this->load(__DIR__.'/Commands');
+
+        require base_path('routes/console.php');
     }
 }
