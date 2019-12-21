@@ -1,3 +1,11 @@
+## Repository Deprecated
+
+As this repo was initially put togher as a starting point for developers who wanted to use CoreUI with Laravel, it now is deprecated as the CoreUI authors have released a Laravel version @ https://coreui.io/laravel/
+
+**This repository is no longer maintainted.**
+
+---
+
 # Laravel 5.6 + CoreUI Admin Bootstrap Template VueJS
 
 
